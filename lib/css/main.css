@@ -1,5 +1,7 @@
 body {
 	background-color: skyblue;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
 }
 
 #cloud {
@@ -7,12 +9,13 @@ body {
 	display: block;
     margin-left: auto;
 	margin-right: auto;
-	vertical-align: middle;
 }
 
 .atribution {
 	text-align: right;
-	vertical-align: text-bottom;
+	position:absolute;
+	bottom:0;
+	right: 0;
 	color: white;
 	text-decoration: none;
 }
